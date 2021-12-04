@@ -1,0 +1,35 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.country {
+    background-color: aliceblue;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.country-name {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(6, 62, 66);
+}
+.capital-name {
+    font-size: 20px;
+    color:deeppink;
+}
+.country-details {
+	background-color: cornflowerblue;
+	color: cornsilk;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid blue;
+	border-radius: 10px;
+	width: 79px;
+	height: 37px;
+    cursor: pointer;
+}
+#flags {
+	width: 130px;
+}
